@@ -1,0 +1,37 @@
+Arithmetic Operations in C++
+
+Overview
+
+This C++ program demonstrates basic arithmetic operations such as addition, subtraction, multiplication, division, and modulus.
+
+Breakdown:
+
+#include <iostream>: Enables input and output operations.
+
+using namespace std;: Avoids the need for std:: before functions like cout.
+
+int a = 15, b = 2;: Declares and initializes two integer variables.
+
+cout << "Sum: " << a + b << endl;        // Printing the sum of a and b
+
+cout << "Difference: " << a - b << endl; // Printing the difference between a and b
+
+cout << "Product: " << a * b << endl;    // Printing the product of a and b
+    
+cout << "Quotient: " << a / b << endl;   // Printing the quotient (integer division) of a and b
+    
+cout << "Remainder: " << a % b << endl;  // Printing the remainder of the division of a by b
+
+a + b: Computes the sum of a and b.
+
+a - b: Computes the difference between a and b.
+
+a * b: Computes the product of a and b.
+
+a / b: Performs integer division of a by b.
+
+a % b: Computes the remainder of a divided by b.
+
+endl: Moves to a new line.
+
+return 0;: Indicates successful execution.

@@ -1,0 +1,28 @@
+Variable Output in C++
+
+Overview
+
+This C++ program demonstrates how to declare, initialize, and output different variable types such as integers, floating-point numbers, characters, and strings.
+
+Breakdown:
+
+#include <iostream>: Enables input and output operations.
+
+using namespace std;: Avoids the need for std:: before functions like cout.
+
+int age = 20;: Declares and initializes an integer variable.
+
+double price = 19.99;: Declares and initializes a floating-point variable.
+
+char grade = 'A';: Declares and initializes a character variable.
+
+string name = "Alice";: Declares and initializes a string variable.
+
+cout << "Name: " << name << endl;   // Printing name
+cout << "Price: " << price << endl; // Printing price
+cout << "Age: " << age << endl;     // Printing age
+cout << "Grade: " << grade << endl; // Printing grade
+
+endl: Moves to a new line.
+
+return 0;: Indicates successful execution.

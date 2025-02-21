@@ -1,0 +1,18 @@
+Hello, World! C++ Program
+
+Overview
+
+This is a simple C++ program that prints "Hello, World" to the console. It serves as a basic introduction to C++ syntax and structure.
+
+
+Breakdown:
+
+#include <iostream>: This header file allows us to use cout for output.
+
+using namespace std;: Avoids the need to write std::cout.
+
+int main(): The main function where execution starts.
+
+cout << "Hello, World";: Prints the message to the console.
+
+return 0;: Indicates successful program termination.
