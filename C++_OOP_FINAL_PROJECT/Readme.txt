@@ -26,7 +26,7 @@ Features
 |Display all attendance records
 |Analyze attendance using polymorphic analyzers
 
-Code Explanation (Line by Line)
+Code Explanation
 ................................
 
 1. Structs
@@ -194,7 +194,7 @@ Delete the analyzers:
 for (int i = 0; i < 2; ++i)
     delete analyzers[i];
 delete[] analyzers;
-✅ return 0;
+return 0;
 Signals successful program exit to the OS.
 
 SAMPLE MENU OUTPUT:
